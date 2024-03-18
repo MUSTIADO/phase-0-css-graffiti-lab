@@ -1,1 +1,32 @@
 /* write your override styles here */
+.tag-1{
+    background: url(../image/tag-1.png) no-repeat;
+    z-index:7;
+    display: block;
+}
+
+#wall .tag-1{
+    display: none;
+}
+
+<div class="tag-1"></div>
+    <div id="tag-2"></div>
+    <div id="tag-3" class="slick wicked"></div>
+    <div class="parent">
+      <div id="tag-4"></div>
+    </div>
+    <div class="parent">
+      <div id="tag-5" class="slick"></div>
+    </div>
+    <div class="parent">
+      <div></div>
+      <div>
+        <div id="tag-6"></div>
+      </div>
+    </div>
+    <div class="parent">
+      <div>
+        <div id="tag-7" class="slick"></div>
+      </div>
+      <div></div>
+    </div>
